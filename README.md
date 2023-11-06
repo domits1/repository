@@ -13,44 +13,47 @@ This repository contains the code for the Domits project. The following instruct
 
 ### 1. Clone the Repository
 
-```
-# Install in new folder (recommended)
+Install in new folder (recommended)
+```bat
 git clone https://github.com/domits1/repository.git
 cd repository
-# Install in current folder
+```
+
+Install in current folder
+```bat
 git clone https://github.com/domits1/repository.git .
 ```
 
-### Backend Setup
+### 2. Backend Setup
 
 Navigate to the backend directory and install the necessary packages:
 
-```
+```bat
 cd backend
 npm install
-```
-
-To start the backend locally:
-
-```
-npm run start:dev
 ```
 
 ### 3. Frontend Setup
 
 Navigate to the frontend directory and install the necessary packages:
 
-```
-cd ./frontend
+```bat
+cd frontend
 npm install
+```
+
+## Getting Started
+
+To start the backend locally:
+
+```bat
+npm run start:dev
 ```
 
 To start the frontend locally:
 
-```
+```bat
 npm run dev
 ```
-
-## Getting Started
 
 Both the frontend and backend should now be running locally. Open your browser and navigate to http://localhost:5173 to view the frontend of the application. The backend can be found at http://localhost:3000.
